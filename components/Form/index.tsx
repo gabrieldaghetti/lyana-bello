@@ -17,7 +17,7 @@ interface CustomProps {
 }
 
 const MaskedInput = React.forwardRef<CustomProps>(function MaskedInput(
-  props,
+  props: any,
   ref
 ) {
   const { onChange, ...other } = props;
