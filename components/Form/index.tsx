@@ -16,31 +16,30 @@ interface CustomProps {
   name: string;
 }
 
-const MaskedInput = React.forwardRef<CustomProps>(function MaskedInput(
-  props: any,
-  ref
-) {
-  const { onChange, ...other } = props;
+const MaskedInput = React.forwardRef<HTMLElement, CustomProps>(
+  function MaskedInput(props: any, ref) {
+    const { onChange, ...other } = props;
 
-  return (
-    <Cleave
-      {...other}
-      ref={ref}
-      options={{
-        delimiters: ["(", ")", " ", " ", "-"],
-        blocks: [0, 2, 0, 1, 4, 4],
-      }}
-      onChange={(e) => {
-        onChange({
-          target: {
-            name: props.name,
-            value: e.target.value,
-          },
-        });
-      }}
-    />
-  );
-});
+    return (
+      <Cleave
+        {...other}
+        ref={ref}
+        options={{
+          delimiters: ["(", ")", " ", " ", "-"],
+          blocks: [0, 2, 0, 1, 4, 4],
+        }}
+        onChange={(e) => {
+          onChange({
+            target: {
+              name: props.name,
+              value: e.target.value,
+            },
+          });
+        }}
+      />
+    );
+  }
+);
 
 const Form: React.FC = () => {
   const [name, setName] = useState("");
@@ -64,7 +63,7 @@ const Form: React.FC = () => {
     setOpen(false);
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = (e: any) => {
     e.preventDefault();
 
     emailjs
@@ -135,7 +134,7 @@ const Form: React.FC = () => {
             value={phone}
             onChange={(e: any) => setPhone(e.target.value)}
             InputProps={{
-              inputComponent: MaskedInput,
+              inputComponent: MaskedInput as any,
             }}
           />
         </Grid>
@@ -182,9 +181,19 @@ const Form: React.FC = () => {
         onClose={handleClose}
         anchorOrigin={{ horizontal: "right", vertical: "bottom" }}
       >
-        <Alert onClose={handleClose} severity={severity} sx={{ width: "100%" }}>
-          {alertText}
-        </Alert>
+        {severity === "success" ? (
+          <Alert
+            onClose={handleClose}
+            severity="success"
+            sx={{ width: "100%" }}
+          >
+            {alertText}
+          </Alert>
+        ) : (
+          <Alert onClose={handleClose} severity="error" sx={{ width: "100%" }}>
+            {alertText}
+          </Alert>
+        )}
       </Snackbar>
     </Box>
   );
