@@ -8,7 +8,7 @@ const Appointment: React.FC = () => {
     <Box
       id="appointment-container"
       sx={{
-        backgroundImage: "url(./appointment.jpg)",
+        backgroundImage: "url(./appointment_.jpeg)",
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
         backgroundPosition: "center",

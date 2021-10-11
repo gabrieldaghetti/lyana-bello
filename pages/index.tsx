@@ -42,7 +42,7 @@ const Home: NextPage = () => {
 
     setTimeout(() => {
       handleDrawerToggle();
-    }, 500);
+    }, 900);
   };
 
   return (
