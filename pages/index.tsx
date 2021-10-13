@@ -11,6 +11,7 @@ import {
   Zoom,
   Fab,
   useScrollTrigger,
+  Typography,
 } from "@mui/material";
 import KeyboardArrowUpIcon from "@mui/icons-material/KeyboardArrowUp";
 import MenuIcon from "@mui/icons-material/Menu";
@@ -21,6 +22,7 @@ import NeuroAssessment from "../components/NeuroAssessment";
 import Clinic from "../components/Clinic";
 import Contact from "../components/Contact";
 import Banner from "../components/Banner";
+import Copyright from "../components/Copyright";
 
 const drawerWidth = 240;
 
@@ -162,6 +164,8 @@ const Home: NextPage = () => {
         <NeuroAssessment />
         <Clinic />
         <Contact />
+        <Copyright />
+
         <Zoom
           in={useScrollTrigger({ disableHysteresis: true, threshold: 100 })}
         >

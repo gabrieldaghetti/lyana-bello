@@ -59,9 +59,9 @@ const Graduation: React.FC = () => {
               }}
             >
               É uma avaliação sistemática das relações entre o cérebro e o
-              comportamento físico feita por um psicólogo especialista em
+              comportamento feita por um psicólogo especialista em
               Neuropsicologia com o objetivo de mapear as funções mentais,
-              descrevendo o desempenho cognitivo e avaliando suspeitas
+              descrevendo o desempenho cognitivo e avaliando suspeitas de
               alterações cognitivas que podem ser decorrentes de desordens
               neurológicas e outros transtornos.
             </Typography>
@@ -80,15 +80,15 @@ const Graduation: React.FC = () => {
             }}
           >
             Nessa avaliação são utilizados instrumentos neuropsicológicos
-            (testes) padronizados e validados, aprovados pela SATEPSI (Sistema
+            (testes) padronizados e validados, aprovados pelo SATEPSI (Sistema
             de Avaliação de Testes Psicológicos) do Conselho Federal de
             Psicologia e também tarefas complementares como escalas e
-            inventários normalizados.
+            inventários normatizados.
           </Typography>
           <Typography
             sx={{ marginTop: 1, textAlign: { xs: "justify", md: "start" } }}
           >
-            Além da aplicação dos instrumentos neuropsicológicos são necessários
+            Além da aplicação dos instrumentos neuropsicológicos são necessárias
             entrevistas clínicas e observações da criança / adolescente,
             entrevista com familiares / responsáveis e, se possível, contato com
             a equipe escolar e outros profissionais envolvidos. Dessa forma, a
@@ -145,7 +145,7 @@ const Graduation: React.FC = () => {
             A avaliação neuropsicológica pode ser solicitada por vários
             profissionais como neurologistas, psiquiatras, pediatras e também
             por professores, psicopedagogos, fonoaudiólogos, psicólogos, dentre
-            outros. É solicitado como recurso para notear o diagnóstico e
+            outros. É solicitada como recurso para nortear o diagnóstico e
             estabelecer o tratamento e os tipos de intervenção ou reabilitação
             mais adequados. A procura espontânea pela família também pode
             ocorrer caso se perceba a necessidade da criança ou adolescente

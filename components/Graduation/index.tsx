@@ -67,7 +67,7 @@ const Graduation: React.FC = () => {
             </Typography>
             <Typography sx={{ textAlign: "justify" }}>
               Graduada em psicologia há mais de 20 anos pela Universidade
-              Federal Fluminense – UFF. Especialista em neuropsicologia.
+              Federal Fluminense – UFF. Especialista em Neuropsicologia.
               Servidora Pública do Município de Duque de Caxias desde 2003,
               trabalhou em Centro de atenção especializado ao adolescente e
               realiza atendimento clínico no Programa de Saúde Mental da Unidade

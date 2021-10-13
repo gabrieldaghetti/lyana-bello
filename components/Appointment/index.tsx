@@ -114,9 +114,9 @@ const Appointment: React.FC = () => {
               <Typography sx={{ textAlign: "justify", color: "white" }}>
                 Avaliação complexa que investiga o desempenho cognitivo quando
                 há queixas de aprendizagem, de desempenho ocupacional e
-                comportamentais que impactam a vida diária a fim de avaliar a
-                presença de distúrbios e para fornecer um perfil de dificuldades
-                e potencialidades da pessoa.
+                comportamentais que impactam a vida diária. Importante para
+                avaliar a presença de distúrbios e para fornecer um perfil de
+                dificuldades e potencialidades da pessoa.
               </Typography>
             </Box>
           </Box>
