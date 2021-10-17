@@ -69,7 +69,7 @@ const Graduation: React.FC = () => {
               Graduada em psicologia há mais de 20 anos pela Universidade
               Federal Fluminense – UFF. Especialista em Neuropsicologia.
               Servidora Pública do Município de Duque de Caxias desde 2003,
-              trabalhou em Centro de atenção especializado ao adolescente e
+              trabalhou em Centro de Atendimento Especializado ao Adolescente e
               realiza atendimento clínico no Programa de Saúde Mental da Unidade
               Pré-Hospitalar - UPH-Xerém. Atua como psicóloga clínica e no
               atendimento a demandas de avaliação neuropsicológica.

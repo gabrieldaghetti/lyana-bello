@@ -86,6 +86,9 @@ const Appointment: React.FC = () => {
                   <Typography sx={{ color: "white" }}>Adultos</Typography>
                 </li>
               </ul>
+              <Typography sx={{ color: "white" }}>
+                Atendimento on-line sob consulta
+              </Typography>
             </Box>
           </Box>
           <Box

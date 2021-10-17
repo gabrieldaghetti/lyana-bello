@@ -58,7 +58,7 @@ const Graduation: React.FC = () => {
                 textAlign: { xs: "justify", md: "start" },
               }}
             >
-              É uma avaliação sistemática das relações entre o cérebro e o
+              É uma avaliação sistematizada das relações entre o cérebro e o
               comportamento feita por um psicólogo especialista em
               Neuropsicologia com o objetivo de mapear as funções mentais,
               descrevendo o desempenho cognitivo e avaliando suspeitas de
