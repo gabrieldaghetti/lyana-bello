@@ -69,7 +69,9 @@ const Appointment: React.FC = () => {
               <PersonIcon sx={{ color: "white", fontSize: 30 }} />
             </IconButton>
             <Box>
-              <Typography sx={{ fontSize: 22, color: "white" }}>
+              <Typography
+                sx={{ fontSize: 22, color: "white", marginBottom: "10px" }}
+              >
                 Atendimento Clínico
               </Typography>
               <Typography sx={{ color: "white" }}>
@@ -111,7 +113,9 @@ const Appointment: React.FC = () => {
               <PersonIcon sx={{ color: "white", fontSize: 30 }} />
             </IconButton>
             <Box>
-              <Typography sx={{ fontSize: 22, color: "white" }}>
+              <Typography
+                sx={{ fontSize: 22, color: "white", marginBottom: "10px" }}
+              >
                 Avaliação Neuropsicológica
               </Typography>
               <Typography sx={{ textAlign: "justify", color: "white" }}>
